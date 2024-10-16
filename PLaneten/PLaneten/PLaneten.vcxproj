@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8d9aff0c-7929-46d1-b158-1da1c0d756f5}</ProjectGuid>
-    <RootNamespace>Tag102Schweinerei</RootNamespace>
+    <ProjectGuid>{f5840309-73d6-4038-a85b-f1659961035b}</ProjectGuid>
+    <RootNamespace>PLaneten</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MeineAusgabe.cpp" />
-    <ClCompile Include="Schwein.cpp" />
-    <ClCompile Include="Tag1_02Schweinerei.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="PLaneten.cpp" />
+    <ClCompile Include="Sonnensystem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MeineAusgabe.h" />
-    <ClInclude Include="Schwein.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="Sonnensystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

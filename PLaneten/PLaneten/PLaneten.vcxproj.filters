@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tag1_02Schweinerei.cpp">
+    <ClCompile Include="PLaneten.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="MeineAusgabe.cpp">
+    <ClCompile Include="Planet.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Schwein.cpp">
+    <ClCompile Include="Sonnensystem.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MeineAusgabe.h">
+    <ClInclude Include="Planet.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Schwein.h">
+    <ClInclude Include="Sonnensystem.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

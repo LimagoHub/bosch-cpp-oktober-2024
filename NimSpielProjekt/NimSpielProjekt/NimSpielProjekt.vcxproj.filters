@@ -15,21 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tag1_02Schweinerei.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="MeineAusgabe.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Schwein.cpp">
+    <ClCompile Include="NimSpielProjekt.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MeineAusgabe.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Schwein.h">
+    <ClInclude Include="NimSpiel.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
