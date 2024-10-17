@@ -7,24 +7,18 @@ private:
 	double radius;
 
 public:
-
-	Kreis():Kreis(0,0,0)
-	{
-		
-	}
-	Kreis(double radius): Kreis(radius, 0,0)
-	{
+	Kreis():Kreis(0,0,0) {
 
 	}
-	Kreis(double x, double y): Kreis(0,x,y)
-	{
+	Kreis(double radius):Kreis(radius,0,0) {
 
 	}
-	Kreis(double radius ,double x, double y): Punkt(x,y), radius(radius)
-	{
-		
-	}
+	Kreis(double x, double y):Kreis(0,x,y) {
 
+	}
+	Kreis(double radius, double x, double y):Punkt(x,y), radius(radius) {
+		//Kreis::radius = radius;
+	}
 	double get_radius() const
 	{
 		return radius;
@@ -35,9 +29,9 @@ public:
 		Kreis::radius = radius;
 	}
 
-	std::string ToString() override
+	std::string ToString() const override
 	{
-		return Punkt::ToString() + ", Radius = " + std::to_string(radius);
+		return Punkt::ToString() + ", Radius=" + std::to_string(radius);
 	}
 };
 

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5439fc16-b750-40e2-9634-dfe4f1854841}</ProjectGuid>
-    <RootNamespace>GeometrieProjekt</RootNamespace>
+    <ProjectGuid>{69de269d-3f87-4e1a-bb9f-3123e24e6e32}</ProjectGuid>
+    <RootNamespace>VentileProjekt</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GeometrieProjekt.cpp" />
+    <ClCompile Include="CVentile.cpp" />
+    <ClCompile Include="VentileProjekt.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Kreis.h" />
-    <ClInclude Include="Punkt.h" />
+    <ClInclude Include="CVentile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

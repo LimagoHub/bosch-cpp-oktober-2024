@@ -68,18 +68,18 @@ public:
 		set_y(get_y() - 1);
 	}
 
-	virtual std::string ToString()
+	virtual std::string ToString() const
 	{
 		return "X = " + std::to_string(x) + ", Y = " + std::to_string(y);
 	}
 
 	/* rechts, links, oben, unten, getX, getY */
 	/* -10 <= x <= 10 */
-	friend std::ostream& operator<<(std::ostream& os, const Punkt& obj)
+	friend std::ostream& operator<<(std::ostream& os, const Punkt& punkt)
 	{
 		return os
-			<< "x: " << obj.x
-			<< " y: " << obj.y;
+			<< punkt.ToString();
+			
 	}
 };
 
