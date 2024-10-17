@@ -1,16 +1,11 @@
 #include <iostream>
-
+#include "Monster.h"#
 int main()
 {
-    int a = 10;
-    int b = 20;
-    int c;
-    if (a > b)
-        c = a;
-    else
-        c = b;
+    Monster freddy;
 
-    c = a > b ? a : b;
+    freddy.makeNoise();
 
-    std::cout << "Hello World!\n";
+    freddy.fight();
+    freddy.ausgabe();
 }

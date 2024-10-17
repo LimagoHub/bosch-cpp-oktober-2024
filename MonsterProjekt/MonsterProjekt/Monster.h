@@ -16,24 +16,44 @@ protected:
 	{
 		this->power = power;
 	}
+
+	virtual void doFight()
+	{
+		power--;
+	}
+
+	virtual bool isAbleToFight()
+	{
+		return power >= 0;
+	}
 public:
+	Monster():power(10) {  }
 
 	virtual void eat()
 	{
 		power++;
 	}
-
-	virtual void fight()
+	void fight()
 	{
-		if(power < 0)
+		if(! isAbleToFight())
 			std::cout << "Kann nicht kaempfen" << std::endl;
-		power--;
+		doFight();
 	}
 
 	virtual void makeNoise()
 	{
 		std::cout << "mememe" << std::endl;
 
+	}
+
+	virtual std::string getName()
+	{
+		return "Monster";
+	}
+
+	virtual void ausgabe()
+	{
+		std::cout << getName() << ": Power=" << get_power() << std::endl;
 	}
 };
 
