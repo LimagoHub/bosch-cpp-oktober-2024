@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69de269d-3f87-4e1a-bb9f-3123e24e6e32}</ProjectGuid>
-    <RootNamespace>VentileProjekt</RootNamespace>
+    <ProjectGuid>{385ee4cf-38ec-4268-93f9-cfc869ed45ba}</ProjectGuid>
+    <RootNamespace>MonsterProjekt</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CVentile.cpp" />
-    <ClCompile Include="VentileProjekt.cpp" />
+    <ClCompile Include="MonsterProjekt.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CVentile.h" />
-    <ClInclude Include="CVentileUndPumpen.h" />
+    <ClInclude Include="Monster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

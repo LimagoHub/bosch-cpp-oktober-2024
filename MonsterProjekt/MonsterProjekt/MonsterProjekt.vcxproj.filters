@@ -15,18 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VentileProjekt.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="CVentile.cpp">
+    <ClCompile Include="MonsterProjekt.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CVentile.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="CVentileUndPumpen.h">
+    <ClInclude Include="Monster.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

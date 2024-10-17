@@ -8,6 +8,7 @@
 #define VENTIL_5 5
 #define VENTIL_6 6
 #define VENTIL_7 7
+#include <iostream>
 
 
 class CVentile
@@ -40,6 +41,18 @@ public:
 	void schliesseAlleVentile()
 	{
 		ucVentile = 0x00;
+	}
+
+	virtual void ausgabe()
+	{
+		for (int i = 0; i < 8; ++i)
+		{
+			std::cout
+				<< "Zustand des Ventils "
+				<< i << " ist "
+				<< (getVentilStatus(i)?"offen":"geschlossen")
+				<< std::endl;
+		}
 	}
 };
 
