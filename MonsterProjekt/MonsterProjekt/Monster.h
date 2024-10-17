@@ -35,9 +35,10 @@ public:
 	}
 	void fight()
 	{
-		if(! isAbleToFight())
+		if(isAbleToFight())
+			doFight();
+		else
 			std::cout << "Kann nicht kaempfen" << std::endl;
-		doFight();
 	}
 
 	virtual void makeNoise()
