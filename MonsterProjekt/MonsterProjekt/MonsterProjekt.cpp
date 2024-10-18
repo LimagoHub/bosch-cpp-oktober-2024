@@ -1,11 +1,16 @@
 #include <iostream>
-#include "Monster.h"#
+#include "Oger.h"
+#include "Zombie.h"
+
 int main()
 {
     Monster freddy;
+    Oger durotan;
+    Zombie snowShovel;
 
-    freddy.makeNoise();
+    Monster& monster = durotan;
+    monster.makeNoise();
 
-    freddy.fight();
-    freddy.ausgabe();
+    monster.fight();
+    monster.ausgabe();
 }

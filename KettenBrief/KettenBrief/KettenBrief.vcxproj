@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{385ee4cf-38ec-4268-93f9-cfc869ed45ba}</ProjectGuid>
-    <RootNamespace>MonsterProjekt</RootNamespace>
+    <ProjectGuid>{37836f20-ead9-418f-abd2-8f05f2b25c76}</ProjectGuid>
+    <RootNamespace>KettenBrief</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MonsterProjekt.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Monster.h" />
-    <ClInclude Include="Oger.h" />
-    <ClInclude Include="Zombie.h" />
+    <ClCompile Include="KettenBrief.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
